@@ -1,0 +1,19 @@
+{
+  "name": "HelloWorld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "6to5ify": "^4.1.1",
+    "react": "^0.13.0",
+    "browserify": "^9.0.3",
+    "babel": "^4.7.12",
+    "watchify": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch": "watchify -t 6to5ify src/app.jsx -o dist/bundle.js -v"
+  },
+  "author": "",
+  "license": "ISC"
+}
